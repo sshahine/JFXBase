@@ -2,6 +2,7 @@ plugins {
     id 'java'
     id 'application'
     id 'org.openjfx.javafxplugin' version '0.0.9'
+    id 'com.github.hierynomus.license' version '0.15.0'
 }
 
 group 'org.example'
@@ -62,3 +63,7 @@ run {
     ]
 }
 
+license {
+    header rootProject.file('LICENSE.md')
+    strictCheck true
+}

@@ -1,0 +1,37 @@
+
+.header {
+    -fx-spacing: 2em;
+    -fx-padding: 1em;
+}
+
+.jfx-button:hover {
+    -fx-cursor: hand;
+}
+
+.jfx-button {
+    -fx-text-fill: rgba(255, 255, 255, 0.87);
+}
+
+.list-view .list-cell,
+.list-view .list-cell:selected,
+.list-view .list-cell:selected:focused {
+    -fx-background-color: white;
+    -fx-text-fill: black;
+}
+
+.list-view .list-cell:selected .label {
+    -fx-text-fill: black;
+}
+
+.list-view .list-cell .cell-graphic {
+    -fx-padding: 1em;
+    -fx-border-color: transparent;
+    -fx-border-width: 2px;
+    -fx-border-radius: 3px;
+}
+
+.list-view .list-cell:selected .cell-graphic {
+    -fx-border-color: lightgray;
+    -fx-border-width: 2px;
+    -fx-border-radius: 3px;
+}
